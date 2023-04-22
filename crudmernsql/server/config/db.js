@@ -2,9 +2,9 @@ const mysql=require("mysql")
 
 const dbconnect=mysql.createConnection({
     host:"localhost",
-    user:"root",
+    user:"",
     password:"",
-    database:"crudmernsql"
+    database:""
 });
 
 dbconnect.connect((error)=>{
